@@ -4,5 +4,8 @@ pandas
 matplotlib
 seaborn
 scikit-learn
-fbprophet
 math
+re
+difflib
+pandas_profiling
+streamlit_pandas_profiling
