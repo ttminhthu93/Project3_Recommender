@@ -20,8 +20,10 @@ from streamlit_pandas_profiling import st_profile_report
 
 
 # Source Code
-products = pd.read_csv('data/ProductRaw.csv')
-reviews = pd.read_csv('data/ReviewRaw.csv')
+# products = pd.read_csv('data/ProductRaw.csv')
+# reviews = pd.read_csv('data/ReviewRaw.csv')
+products = pd.read_csv('https://drive.google.com/file/d/1iaCzr-TIKuxphG8Ke1hwvAlzyFiy1oa1/view?usp=sharing')
+reviews = pd.read_csv('https://drive.google.com/file/d/1vgg5VRp24MUnCxvnk6Obzn9kmCqu3PVG/view?usp=sharing')
 
 pr_products = products.profile_report()
 pr_reviews = reviews.profile_report()
